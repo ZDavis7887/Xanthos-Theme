@@ -1,0 +1,149 @@
+/*
+Theme Name: Xanthos
+Theme URI: http://www.zdvisions.com
+Description: A brief description.
+Version: 1.0
+Author: Zach Davis
+Author URI: zdvisions.com
+*/
+/*//////////////BASICS/////////////*/
+
+ul {list-style-type: none;padding:0px;}
+ul#menu-primary { background: #000;height: 100%;}
+p{padding:1em; font-family: 'Oswald', sans-serif; font-size:1.5em; color:#fff;}
+a{color:#fff;}
+body {margin: 0;background:#000;padding: 0;background-attachment: fixed;background-size: cover;margin: -1px;overflow-x:hidden;font-family: 'Fugaz One', cursive;color: #fff;}
+.nav>li{width: 49%;}
+.aboutSection {color: #fff;}
+.aboutSection a {color: #25e529;}
+.social a:hover {color: #49f64e;}
+/*//////////////QUERIES//////////////*/
+@media(min-width:767px){#logo{position:absolute}}
+@media(max-width:603px){#logo{width:100%;}.social{font-size:4em !important;}html{overflow-x: hidden}p{font-size:1em;}}
+@media(min-width:425px) and (max-width:768px){.revologo {width: 20%}}
+@media(min-width:425px) and (max-width:991px){img.revologo {width: 50%;position:relative !important;}
+#menu-primary li a {width: 100%;text-align: center;display: inline-block;margin: auto;vertical-align: middle;}.flip-container, .front1, .front2, .front3, .front4,.back {height: 370px !important;}}
+@media(min-width:1367px){.innerContainer {width: 100%;margin: auto;}#st-trigger-effects{position: fixed;}iframe {z-index: 1;width: 100%;display:block;}}
+@media(max-width:1550px){#menu-primary li a {font-size:1.5em;}}
+@media(min-width:1550px){#menu-primary li a {width: 100%;text-align: center;display: inline-block;height: 15vw;line-height: 12vw;font-size: 3em;}}
+@media(min-width:1024px){img.revologo {width:10%;float: left;position:fixed;z-index: 9999;transition: .3s;}}
+@media(max-width:992px){.revologo{width: 70%;position:relative !important;float: none !important;}.mainLogo{display:none !important;}}
+@media(min-width:991px){#logo{text-align:left;padding-left: 2vw; position: absolute;}.rightfoot{text-align:left;}.leftfoot{text-align:right;}.blog-inner-wrap-view.blog-clearfix { width: 33%;float: right;}}
+@media(max-width:991px){#menu-primary li a { height: 27vw;}.nav > li {width:100% !important;}.leftfoot, .rightfoot{text-align:center;}#logo{text-align: center;clear: both;}.navoptions {font-size: 1em !important;padding: 11px !important;}.socialNav{font-size:2em !important;}
+
+.back {font-size: 35px !important;}}
+
+
+@media(min-width:1025px){.play{margin-bottom: 3em;}}
+@media(max-width:1024px){#st-trigger-effects{background:#000;}.revologofoot{width:20%;}}
+@media(min-width:992px){#menu-primary li a {width: 100%;text-align: center;display: inline-block;height: 15vw;}.nav>li {position: relative;display: inline-block;height: 15vw;}}
+
+@media screen (min-width:992px) and (max-width:1500px){.st-effect-1.st-menu-open .st-effect-1.st-menu {
+transform: translate3d(312px, 0, 0);}}
+
+@media(max-width:1500px){.nav>li{width: 100% !important;}.st-menu{width:34%;}}
+span.threelines{font-size: 2.5em;cursor: pointer;z-index:999999;color: #fff;padding: 5px;}.navoptions{color: #ffffff;text-decoration: none;display: block;font-size: 2em;padding: 21px;text-transform: uppercase;}
+
+.titles {font-size: 5vw;position: absolute;width: 100%;bottom: 0;color: #fff;text-transform: uppercase;padding-left: 2.5rem;background: linear-gradient(to bottom, transparent, rgba(0,0,0,.9));}
+
+.pane {position: relative;bottom: -1em;left: 0;width: 100%;background: linear-gradient(to bottom, transparent, rgba(0,0,0,.9));color: #FFF!important;}
+
+section.main{height:auto;}
+
+#fancybox-wrap { z-index: 9999999999 !important;}
+
+img.revologo.shrink{width:4%; transition:.3s}
+
+#logo {display: inline-block; height: auto; z-index: 9999;}
+
+.play{text-align:center;}
+
+.centerfoot{text-align:center;}
+ 
+.revoFoot{background: url(https://zdvisions.com/wp-content/uploads/2019/06/texture.png) #395239;padding: 2%;color: #fff;clear: both;}
+
+.lead, .cover{width:100%;height:auto;}
+
+.callToActions{padding:1rem;transition: all .3s ease;}
+
+.g-row{margin:0 !important;}
+
+.social {float:right;font-size: 3em;color: #fff;margin: 0 auto;}
+
+i.fa.fa-play-circle-o:hover {transition: .3s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.socialNav {font-size: 5em;color: #fff;position: relative;text-align: center;margin: 0 auto;}
+
+.footnav {color: #ffffff;text-decoration: none;display: block;font-size: 1.5em;}
+
+.innerpages{padding:6em;}
+
+.col-sm-4.revocol{padding-left:5px !important;padding-right:5px !important}
+
+a.overlay:hover {text-decoration: none !important;}
+
+.easingslider-wrapper-outer {opacity: .5;z-index: -5;}
+
+/*Flipping Elements*/
+
+/* entire container, keeps perspective */
+.flip-container {perspective: 1000px;}
+	/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {transform: rotateY(180deg);}
+
+.flip-container, .front1,.front2,.front3, .front4, .back {width: 100%;height: 176px;}
+
+/* flip speed goes here */
+.flipper {transition: 0.6s;transform-style: preserve-3d;position: relative;}
+
+/* hide back of pane during swap */
+.front1,.front2,.front3, .front4,.back {backface-visibility: hidden;display: flex;position: absolute;top: 0;left: 0;}
+
+/* front pane, placed above back */
+.front1{ background: url(http://zdvisions.com/wp-content/uploads/2019/04/NateThumbnail.jpg);}
+.front2{background:url(http://zdvisions.com/wp-content/uploads/2019/04/katbeardtHUMB.png);}
+.front3{background:url(http://zdvisions.com/wp-content/uploads/2019/04/photographyThumb.jpg);}
+.front4{background:url(http://zdvisions.com/wp-content/uploads/2019/04/aRTtHUMBNAIL.png);}
+.front1,.front2,.front3,.front4 {z-index: 2;transform: rotateY(0deg);background-size: cover;background-repeat: no-repeat;height: 176px;}
+
+/* back, initially hidden pane */
+.back.back1{background:#38f13f}
+.back.back2{background:#f353f4}
+.back.back3{background:#ffd91d}
+.back.back4{background:#f9a300}
+.back {transform: rotateY(180deg);font-size: 25px;color: #fff;text-align: center;vertical-align: middle;margin: auto;}
+
+.easingslider {z-index: -999;}
+
+.mainLogo{text-align: center;background:url(http://zdvisions.com/wp-content/uploads/2019/06/cover2019.jpg);display: flex;vertical-align: middle;margin: auto;
+height: 600px;border-bottom: solid 7px #87d687;}
+
+.navBack{background: url(http://zdvisions.com/wp-content/uploads/2019/05/AboutButtonBack.jpg);background-size: 100%;background-repeat: no-repeat;}
+
+li#menu-item-249 {background: url(http://zdvisions.com/wp-content/uploads/2019/05/illArtButtondark.jpg);background-size: 100%;background-repeat: no-repeat;}
+
+li#menu-item-322 {background: url(http://zdvisions.com/wp-content/uploads/2019/05/fergbutton.jpg);background-size: 100%;background-repeat: no-repeat;}
+li#menu-item-325 {background: url(http://zdvisions.com/wp-content/uploads/2019/05/videoButton.jpg);background-size: 100%;background-repeat: no-repeat;}
+li#menu-item-247 {background: url(http://zdvisions.com/wp-content/uploads/2019/05/photographybutton.jpg);background-size: 100%;background-repeat: no-repeat;}
+li#menu-item-246{background: url(http://zdvisions.com/wp-content/uploads/2019/06/blogButton-1.jpg);background-size: 100%;background-repeat: no-repeat;}
+.latest {
+    background: #ad35ad;
+    margin-top: 2em;
+}
+/*BLOG*/
+
+
+.blog-clearfix::after, .blog-clearfix {clear: none;}
+p.blog-short-content, .blog-author {display: none;}
+.post-content-text {text-align: center;width:100%;}
+a.blog-more-link {background: #63af4b;color: #fff;clear: both;border-radius: 5px;padding: 2%;}
+a.blog-more-link:hover {background: #f689f5;transition: .3s;}
+.blog-col-1, .blog-col-0 { width: 100%;float: none;}
+.blog .blog-title a {color: #fff;}
+.blog-thumb {margin-top: 1.5em;}
+
+
