@@ -1,2 +1,2 @@
-# ZDV-Website
-Graphic Portfolio Website
+# Xanthos Wordpress Theme
+Custom portfolio theme for wordpress
